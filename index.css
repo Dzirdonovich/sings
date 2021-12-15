@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.form__quadrat{
+  display: flex;
+  justify-content: center;
+
+}
+
+.game {
+  width: 500px;
+  height: 500px;
+  border:black solid 1px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+
+.quadrat__item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+}
+
+
+
+
+.quadrat__top, .quadrat__left, .quadrat__bottom, .quadrat__right{
+  position: absolute;
+  cursor: pointer;
+  display: block;
+}
+
+.quadrat__top{
+  top: 0;
+}
+
+.quadrat__left{
+  left: 0;
+}
+
+.quadrat__bottom {
+  bottom: 0
+}
+
+.quadrat__right {
+  right: 0;
+}
